@@ -12,4 +12,4 @@ document.addEventListener('DOMContentLoaded', function () {
                 .addLayer(mapboxTiles)
                 .setView([42.3610, -71.0587], 8);
 
-        }
+});
