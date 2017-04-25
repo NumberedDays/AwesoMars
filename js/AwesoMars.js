@@ -10,4 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
         .addLayer(mapboxTiles)
         .setView([42.3610, -71.0587], 8);
 
+//    var map = L.map('map');
+//
+//    var service = L.esri.mapService({
+//        url: 'https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer/project'
+//    }).addTo(map);
+//
+//
+//    var landingSites = L.esri.featureLayer({
+//        url: 'https://webgis2.wr.usgs.gov/ArcGIS/rest/services/Mars_color/MapServer/0'
+//    }).addTo(map);
+
+
 });
